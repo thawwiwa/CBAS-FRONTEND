@@ -25,6 +25,7 @@
     "@fortawesome/fontawesome-free": "^5.12.1",
     "@ng-bootstrap/ng-bootstrap": "^6.0.0",
     "bootstrap": "^4.4.1",
+    "minimist": "^1.2.5",
     "ng-bootstrap": "^1.6.3",
     "primeflex": "^1.0.0",
     "primeicons": "^2.0.0",
