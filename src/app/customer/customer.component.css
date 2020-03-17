@@ -1,0 +1,9 @@
+.contentBox {
+    margin: 5px;
+    padding-left: inherit;
+}
+
+.card-body {
+    height: 100vh;
+    padding: 1.0rem;
+}
