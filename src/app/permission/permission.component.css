@@ -1,0 +1,52 @@
+.contentBox {
+    margin: 5px;
+    padding-left: inherit;
+}
+
+.card-body {
+    height: 100vh;
+    padding: 1.0rem;
+}
+
+.x-panel {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 17px;
+    display: inline-block;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+}
+
+.x-title {
+    border-bottom: 2px solid #E6E9ED;
+    padding: 1px 5px 6px;
+    /* margin-bottom: 10px; */
+}
+
+.x-content {
+    padding: 0 3px 6px;
+    position: relative;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-top: 5px;
+}
+
+.ln-solid {
+    border-top: 1px solid #E5E5E5;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    height: 1px;
+    margin: 2px;
+}
+
+.c-label {
+    /* padding-top: 10px; */
+    text-align: right;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-top: 1rem;
+}

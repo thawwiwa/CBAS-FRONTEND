@@ -10,6 +10,11 @@ import { routing } from './app-routing.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CustomerComponent } from './customer/customer.component';
 import { CustomerAddComponent } from './customer-add/customer-add.component';
+import { CustomerApproveComponent } from './customer-approve/customer-approve.component';
+import { UserAddComponent } from './user-add/user-add.component';
+import { PermissionAddComponent } from './permission-add/permission-add.component';
+import { LoginComponent } from './login/login.component';
+import { Login2Component } from './login2/login2.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { CustomerAddComponent } from './customer-add/customer-add.component';
     UserComponent,
     PermissionComponent,
     CustomerComponent,
-    CustomerAddComponent
+    CustomerAddComponent,
+    CustomerApproveComponent,
+    UserAddComponent,
+    PermissionAddComponent,
+    LoginComponent,
+    Login2Component
   ],
   imports: [
     BrowserModule,
