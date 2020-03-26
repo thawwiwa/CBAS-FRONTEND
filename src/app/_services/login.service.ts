@@ -60,6 +60,14 @@ export class LoginService {
       */
   }
 
+  public Login3(Username: string, Password: string){
+    return this.httpClient.get(this.cbas_api + 'Auth/Login'
+    + '?Username=' + Username
+    + '&Password=' + Password
+    + '&Mode=login'
+    , httpOptions).toPromise().then( result=> JSON.stringify(result));
+  }
+
 }
 
 

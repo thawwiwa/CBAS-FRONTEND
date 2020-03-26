@@ -19,7 +19,7 @@ const routes: Routes = [
     path: '',
     component: MainLayoutComponent,
     children: [
-      { path: 'customer', loadChildren: () => import('../customer/customer.module').then(m => m.CustomerModule), canActivate: [AuthGuard] },
+      { path: 'customer', loadChildren: () => import('../customer/customer.module').then(m => m.CustomerModule), canActivate: [AuthGuard]},
       { path: 'permission', loadChildren: () => import('../permission/permission.module').then(m => m.PermissionModule), canActivate: [AuthGuard] },
       { path: 'user', loadChildren: () => import('../user/user.module').then(m => m.UserModule), canActivate: [AuthGuard] }
     ]
