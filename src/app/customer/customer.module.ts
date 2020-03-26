@@ -6,12 +6,11 @@ import { ApproveComponent } from './approve/approve.component';
 import { EditComponent } from './edit/edit.component';
 import { DetailsComponent } from './details/details.component';
 
-
 @NgModule({
   declarations: [AddComponent, ApproveComponent, EditComponent, DetailsComponent],
   imports: [
     CommonModule,
-    CustomerRoutingModule
+    CustomerRoutingModule,
   ]
 })
 export class CustomerModule { }

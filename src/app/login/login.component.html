@@ -8,17 +8,14 @@
 </head>
 
 <body>
-    <form class="form-signin">
+    <form [formGroup]="formData" (ngSubmit)="LoginSumit2()" class="form-signin">
         <div class="title">
             <h1>CBAS</h1>
             <p>Customer Bank Account System</p>
         </div>
-
-        <input type="text" id="inputUser" class="form-control" placeholder="Username">
-        <input type="password" class="form-control" placeholder="Password">
-
-        <button type="button" class="btn btn-lg btn-light btn-block">Sign in</button>
-
+        <input type="text" formControlName="Username" class="form-control " placeholder="Username ">
+        <input type="password" formControlName="Password" class="form-control" placeholder="Password ">
+        <button type="submit" [disabled]="!formData.valid" class="btn btn-lg btn-light btn-block ">Sign in</button>
     </form>
 </body>
 

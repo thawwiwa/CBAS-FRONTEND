@@ -8,10 +8,10 @@ import { TabViewModule } from 'primeng/tabview';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CustomerComponent } from './customer/customer.component';
 import { LoginComponent } from './login/login.component';
-import { Login2Component } from './login2/login2.component';
 import { LayoutModule } from './layout/layout.module';
 import { RouterModule } from '@angular/router';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'; 
 // import { AppRoutingModule } from './app-routing.module';
 // import { routing } from './app-routing.module';
 
@@ -22,7 +22,6 @@ import { RouterModule } from '@angular/router';
     PermissionComponent,
     CustomerComponent,
     LoginComponent,
-    Login2Component
   ],
   imports: [
     BrowserModule,
@@ -30,7 +29,9 @@ import { RouterModule } from '@angular/router';
     BrowserAnimationsModule,
     NgbModule,
     TabViewModule,
-    LayoutModule
+    LayoutModule,
+    ReactiveFormsModule,
+    HttpClientModule
     // AppRoutingModule,
     // routing,
   ],
