@@ -26,7 +26,7 @@
     "@ng-bootstrap/ng-bootstrap": "^6.0.0",
     "bootstrap": "^4.4.1",
     "child_process": "^1.0.2",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "moment": "^2.24.0",
     "ng-bootstrap": "^1.6.3",
     "ngx-childprocess": "0.0.6",
