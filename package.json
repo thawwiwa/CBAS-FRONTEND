@@ -27,7 +27,7 @@
     "bootstrap": "^4.4.1",
     "child_process": "^1.0.2",
     "minimist": "^1.2.5",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "ng-bootstrap": "^1.6.3",
     "ngx-childprocess": "0.0.6",
     "primeflex": "^1.0.0",
